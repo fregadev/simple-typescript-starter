@@ -28,10 +28,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@cucumber/cucumber": "^7.2.1",
     "@types/jest": "^26.0.14",
     "@types/node": "^12.7.2",
     "@typescript-eslint/eslint-plugin": "^2.21.0",
     "@typescript-eslint/parser": "^2.21.0",
+    "chai": "^4.3.4",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
@@ -45,8 +47,10 @@
     "typescript": "^4.0.3"
   },
   "dependencies": {
+    "cucumber": "^7.0.0-rc.0",
     "eslint-plugin-jest": "^24.1.0",
     "jest": "^26.5.3",
+    "selenium-webdriver": "^4.0.0-beta.3",
     "ts-jest": "^26.4.1"
   }
 }
